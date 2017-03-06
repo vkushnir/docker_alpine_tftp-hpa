@@ -1,0 +1,7 @@
+cmd: "docker"
+name: "vkushnir/tftp-hpa"
+args:
+    - build
+    - "{FILE_ACTIVE_PATH}\\source\\"
+    - "--tag"
+    - "vkushnir/tftp-hpa"
